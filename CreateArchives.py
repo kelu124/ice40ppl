@@ -25,5 +25,5 @@ for kw in KW:
 	tstamp = time.time()
 	A = ts.get_tweets()
 
-	with open(str(tstamp)+"-"+kw+".json", 'w') as outfile:
+	with open(str(tstamp)+"-"+kw.replace(" ","_")+".json", 'w') as outfile:
 	    json.dump(A, outfile)
