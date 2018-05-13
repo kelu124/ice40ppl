@@ -4,7 +4,7 @@ import numpy as np
 import codecs, json 
 import time
 
-KW = ["lattice ultra plus","arachne-pr","fpga_dave","ultraplus", "icecube2", "oe1cxw", "ice40", "icezum", "icoBoard", "iceZero", "BlackIce", "TinyFPGA", "BeagleWire", "Icestorm","upduino","icoprog","1Bitsy","fpgawars"]
+KW = ["lattice ultra plus","arachne-pr","fpga_dave","ultraplus", "icecube2", "oe1cxw", "ice40", "icezum", "icoBoard", "iceZero", "BlackIce", "TinyFPGA", "BeagleWire", "Icestorm","upduino","icoprog","1Bitsy","fpgawars","fpga_dave","@mithro","@bml_khubbard","SymbiFlow"]
 
 for kw in KW:
 	try:
